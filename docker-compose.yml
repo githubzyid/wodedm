@@ -1,0 +1,74 @@
+services:
+  # PostgreSQL database
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-multitenant_db}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - "5432:5432"
+    networks:
+      - multitenant-network
+
+  # Run migrations (init container)
+  migrations:
+    build: .
+    command: >
+      sh -c "python manage.py migrate_schemas --shared &&
+             python manage.py collectstatic --noinput"
+    environment:
+      - DJANGO_SETTINGS_MODULE=config.settings.development
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - multitenant-network
+
+  # Django web application
+  web:
+    build: .
+    # Use Django's development server with watchdog for instant auto-reload
+    command: python manage.py runserver_plus 0.0.0.0:8000 --nostatic
+    volumes:
+      - .:/app
+      # Exclude Python cache from sync to improve performance
+      - /app/__pycache__
+      - /app/**/__pycache__
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_SETTINGS_MODULE=config.settings.development
+      - PYTHONUNBUFFERED=1
+      # Enable Watchdog for better file change detection
+      - WERKZEUG_DEBUG_PIN=off
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+      migrations:
+        condition: service_completed_successfully
+    networks:
+      - multitenant-network
+    restart: unless-stopped
+    # Show logs in real-time
+    stdin_open: true
+    tty: true
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  multitenant-network:
+    driver: bridge

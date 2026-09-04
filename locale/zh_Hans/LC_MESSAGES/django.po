@@ -1,0 +1,992 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-03 15:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin.py
+msgid "Site administration"
+msgstr "站点管理"
+
+#: admin.py
+msgid "Authentication and Authorization"
+msgstr "认证与授权"
+
+#: admin.py
+msgid "Users"
+msgstr "用户"
+
+#: admin.py
+msgid "Groups"
+msgstr "分组"
+
+#: admin.py
+msgid "Permissions"
+msgstr "权限"
+
+#: admin.py
+msgid "Content types"
+msgstr "内容类型"
+
+#: admin.py
+msgid "Tenants"
+msgstr "租户"
+
+#: admin.py
+msgid "Domains"
+msgstr "域名"
+
+#: admin.py
+msgid "Add"
+msgstr "添加"
+
+#: admin.py
+msgid "Change"
+msgstr "修改"
+
+#: admin.py
+msgid "Delete"
+msgstr "删除"
+
+#: admin.py
+msgid "Save"
+msgstr "保存"
+
+#: admin.py
+msgid "Save and continue editing"
+msgstr "保存并继续编辑"
+
+#: admin.py
+msgid "Save and add another"
+msgstr "保存并新增"
+
+#: admin.py
+msgid "Save as new"
+msgstr "另存为新"
+
+#: admin.py
+msgid "Cancel"
+msgstr "取消"
+
+#: admin.py
+msgid "History"
+msgstr "历史记录"
+
+#: admin.py
+msgid "View on site"
+msgstr "在站点中查看"
+
+#: admin.py
+msgid "Are you sure?"
+msgstr "您确定吗？"
+
+#: admin.py
+msgid "Yes, I'm sure"
+msgstr "是的，我确定"
+
+#: admin.py
+msgid "No, take me back"
+msgstr "不，返回"
+
+#: admin.py
+msgid "This object has been deleted successfully."
+msgstr "该对象已成功删除。"
+
+#: admin.py
+msgid "The object was changed successfully."
+msgstr "该对象已成功修改。"
+
+#: admin.py
+msgid "The object was added successfully."
+msgstr "该对象已成功添加。"
+
+#: admin.py
+msgid "You don't have permission to edit this object."
+msgstr "您没有权限修改此对象。"
+
+#: admin.py
+msgid "You don't have permission to delete this object."
+msgstr "您没有权限删除此对象。"
+
+#: auth/views.py
+msgid "Log in"
+msgstr "登录"
+
+#: auth/views.py
+msgid "Log out"
+msgstr "退出登录"
+
+#: auth/views.py
+msgid "Username"
+msgstr "用户名"
+
+#: auth/views.py
+msgid "Password"
+msgstr "密码"
+
+#: auth/views.py
+msgid "Email address"
+msgstr "电子邮箱"
+
+#: auth/views.py
+msgid "Forgot password?"
+msgstr "忘记密码？"
+
+#: auth/views.py
+msgid "Reset password"
+msgstr "重置密码"
+
+#: auth/views.py
+msgid "Password reset sent"
+msgstr "密码重置邮件已发送"
+
+#: auth/views.py
+msgid "Check your email for a password reset link."
+msgstr "请检查您的邮件，获取密码重置链接。"
+
+#: auth/views.py
+msgid "Password reset confirm"
+msgstr "确认重置密码"
+
+#: auth/views.py
+msgid "Enter your new password"
+msgstr "请输入新密码"
+
+#: auth/views.py
+msgid "Confirm password"
+msgstr "确认密码"
+
+#: auth/views.py
+msgid "Change password"
+msgstr "修改密码"
+
+#: auth/views.py
+msgid "Your password was changed successfully."
+msgstr "您的密码已成功修改。"
+
+#: tenants/models.py
+msgid "Schema name"
+msgstr "模式名称"
+
+#: tenants/models.py
+msgid "Tenant name"
+msgstr "租户名称"
+
+#: tenants/models.py
+msgid "Paid until"
+msgstr "付费截止日期"
+
+#: tenants/models.py
+msgid "On trial"
+msgstr "试用中"
+
+#: tenants/models.py
+msgid "Created on"
+msgstr "创建于"
+
+#: tenants/models.py
+msgid "Domain"
+msgstr "域名"
+
+#: tenants/models.py
+msgid "Is primary"
+msgstr "是否为主域名"
+
+#: tenants/models.py
+msgid "Tenant"
+msgstr "租户"
+
+#: templates/admin/base_site.html
+msgid "Django site admin"
+msgstr "Django 站点管理"
+
+#: templates/admin/index.html
+msgid "Recent actions"
+msgstr "最近操作"
+
+#: templates/admin/index.html
+msgid "My actions"
+msgstr "我的操作"
+
+#: templates/admin/login.html
+msgid "Please enter the correct username and password for a staff account. Note that both fields may be case-sensitive."
+msgstr "请输入正确的管理员用户名和密码。请注意，两者都可能区分大小写。"
+
+#: templates/admin/login.html
+msgid "Log in again"
+msgstr "重新登录"
+
+#: templates/registration/password_change_form.html
+msgid "Password change"
+msgstr "修改密码"
+
+#: templates/registration/password_change_done.html
+msgid "Password change successful"
+msgstr "密码修改成功"
+
+#: templates/registration/password_reset_form.html
+msgid "Forgotten your password? Enter your email address below, and we'll email instructions for setting a new one."
+msgstr "忘记了密码？请在下方输入您的电子邮箱，我们将发送设置新密码的说明。"
+
+#: templates/registration/password_reset_done.html
+msgid "We've emailed you instructions for setting your password, if an account exists with the email you entered. You should receive them shortly."
+msgstr "如果您输入的邮箱地址与某个账户关联，我们已经发送了设置密码的说明。您很快就会收到。"
+
+#: templates/registration/password_reset_confirm.html
+msgid "Enter your new password twice so we can verify you typed it correctly."
+msgstr "请两次输入新密码，以便我们确认输入正确。"
+
+#: templates/registration/password_reset_complete.html
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "您的密码已设置。您现在可以登录了。"
+
+#: apps/api/views.py
+msgid "Item created successfully"
+msgstr "项目创建成功"
+
+#: apps/api/views.py
+msgid "Item updated successfully"
+msgstr "项目更新成功"
+
+#: apps/api/views.py
+msgid "Item deleted successfully"
+msgstr "项目删除成功"
+
+#: apps/api/views.py
+msgid "You are not authorized to perform this action."
+msgstr "您没有权限执行此操作。"
+
+#: apps/api/views.py
+msgid "Invalid input data."
+msgstr "输入数据无效。"
+
+#: apps/api/views.py
+msgid "Item not found."
+msgstr "未找到项目。"
+
+#: apps/authentication/views.py
+msgid "Login successful"
+msgstr "登录成功"
+
+#: apps/authentication/views.py
+msgid "Invalid credentials"
+msgstr "凭证无效"
+
+#: apps/authentication/views.py
+msgid "Token expired"
+msgstr "令牌已过期"
+
+#: apps/authentication/views.py
+msgid "Token refreshed"
+msgstr "令牌已刷新"
+
+#: apps/authentication/views.py
+msgid "Logout successful"
+msgstr "退出成功"
+# ============================================================
+# Django admin 列表页、筛选、操作
+# ============================================================
+
+#: admin/options.py
+msgid "Select %s"
+msgstr "选择 %s"
+
+#: admin/options.py
+msgid "Select %s to change"
+msgstr "选择 %s 以修改"
+
+#: admin/options.py
+msgid "Select %s to add"
+msgstr "选择 %s 以添加"
+
+#: admin/options.py
+msgid "Add %s"
+msgstr "添加 %s"
+
+#: admin/options.py
+msgid "Change %s"
+msgstr "修改 %s"
+
+#: admin/options.py
+msgid "Delete %s"
+msgstr "删除 %s"
+
+#: admin/options.py
+msgid "Filter"
+msgstr "筛选"
+
+#: admin/options.py
+msgid "Search"
+msgstr "搜索"
+
+#: admin/options.py
+msgid "Reset"
+msgstr "重置"
+
+#: admin/options.py
+msgid "Show all"
+msgstr "显示全部"
+
+#: admin/options.py
+msgid "Hide"
+msgstr "隐藏"
+
+#: admin/options.py
+msgid "Export as CSV"
+msgstr "导出为 CSV"
+
+#: admin/options.py
+msgid "Export as Excel"
+msgstr "导出为 Excel"
+
+#: admin/options.py
+msgid "Export as JSON"
+msgstr "导出为 JSON"
+
+#: admin/options.py
+msgid "Export"
+msgstr "导出"
+
+#: admin/options.py
+msgid "Import"
+msgstr "导入"
+
+#: admin/options.py
+msgid "Download"
+msgstr "下载"
+
+#: admin/options.py
+msgid "Upload"
+msgstr "上传"
+
+#: admin/options.py
+msgid "Refresh"
+msgstr "刷新"
+
+#: admin/options.py
+msgid "Page not found"
+msgstr "页面未找到"
+
+#: admin/options.py
+msgid "You are not authorized to access this page."
+msgstr "您没有权限访问此页面。"
+
+#: admin/options.py
+msgid "The requested item was not found."
+msgstr "未找到请求的项目。"
+
+#: admin/options.py
+msgid "The item was changed successfully."
+msgstr "该项目已成功修改。"
+
+#: admin/options.py
+msgid "The item was added successfully."
+msgstr "该项目已成功添加。"
+
+#: admin/options.py
+msgid "The item was deleted successfully."
+msgstr "该项目已成功删除。"
+
+#: admin/options.py
+msgid "No items selected."
+msgstr "未选择任何项目。"
+
+#: admin/options.py
+msgid "You have unsaved changes. Are you sure you want to leave this page?"
+msgstr "您有未保存的更改。确定要离开此页面吗？"
+
+#: admin/options.py
+msgid "Confirm deletion"
+msgstr "确认删除"
+
+#: admin/options.py
+msgid "Are you sure you want to delete the selected %(count)s %(items)s?"
+msgstr "您确定要删除选中的 %(count)s 个 %(items)s 吗？"
+
+#: admin/options.py
+msgid "Yes, delete"
+msgstr "是的，删除"
+
+#: admin/options.py
+msgid "No, cancel"
+msgstr "不，取消"
+
+
+# ============================================================
+# Django 通用消息（Messages Framework）
+# ============================================================
+
+#: contrib/messages/api.py
+msgid "Success"
+msgstr "成功"
+
+#: contrib/messages/api.py
+msgid "Error"
+msgstr "错误"
+
+#: contrib/messages/api.py
+msgid "Warning"
+msgstr "警告"
+
+#: contrib/messages/api.py
+msgid "Info"
+msgstr "信息"
+
+#: contrib/messages/api.py
+msgid "Debug"
+msgstr "调试"
+
+#: contrib/messages/api.py
+msgid "All fields are required."
+msgstr "所有字段均为必填项。"
+
+#: contrib/messages/api.py
+msgid "Please correct the errors below."
+msgstr "请更正下方的错误。"
+
+#: contrib/messages/api.py
+msgid "Your request has been processed successfully."
+msgstr "您的请求已成功处理。"
+
+#: contrib/messages/api.py
+msgid "Something went wrong. Please try again."
+msgstr "发生错误，请重试。"
+
+#: contrib/messages/api.py
+msgid "You have been logged out."
+msgstr "您已退出登录。"
+
+#: contrib/messages/api.py
+msgid "You have been logged in successfully."
+msgstr "您已成功登录。"
+
+#: contrib/messages/api.py
+msgid "Session expired. Please log in again."
+msgstr "会话已过期，请重新登录。"
+
+
+# ============================================================
+# Django 表单（Forms）和验证器（Validators）
+# ============================================================
+
+#: forms/fields.py
+msgid "This field is required."
+msgstr "此字段为必填项。"
+
+#: forms/fields.py
+msgid "Enter a valid value."
+msgstr "请输入一个有效值。"
+
+#: forms/fields.py
+msgid "Enter a valid email address."
+msgstr "请输入有效的电子邮箱地址。"
+
+#: forms/fields.py
+msgid "Enter a valid URL."
+msgstr "请输入有效的 URL。"
+
+#: forms/fields.py
+msgid "Enter a valid phone number."
+msgstr "请输入有效的电话号码。"
+
+#: forms/fields.py
+msgid "Enter a valid date."
+msgstr "请输入有效日期。"
+
+#: forms/fields.py
+msgid "Enter a valid time."
+msgstr "请输入有效时间。"
+
+#: forms/fields.py
+msgid "Enter a valid date/time."
+msgstr "请输入有效的日期/时间。"
+
+#: forms/fields.py
+msgid "Enter a valid number."
+msgstr "请输入有效数字。"
+
+#: forms/fields.py
+msgid "Enter a valid integer."
+msgstr "请输入有效整数。"
+
+#: forms/fields.py
+msgid "Enter a valid decimal number."
+msgstr "请输入有效的小数。"
+
+#: forms/fields.py
+msgid "Enter a value between %(min)s and %(max)s."
+msgstr "请输入介于 %(min)s 和 %(max)s 之间的值。"
+
+#: forms/fields.py
+msgid "This value is too short."
+msgstr "此值太短。"
+
+#: forms/fields.py
+msgid "This value is too long."
+msgstr "此值太长。"
+
+#: forms/fields.py
+msgid "Passwords do not match."
+msgstr "两次输入的密码不匹配。"
+
+#: forms/fields.py
+msgid "The two password fields didn't match."
+msgstr "两次输入的密码不一致。"
+
+#: forms/fields.py
+msgid "Your password can't be too similar to your other personal information."
+msgstr "密码不能与您的其他个人信息过于相似。"
+
+#: forms/fields.py
+msgid "Your password must contain at least %(min_length)d characters."
+msgstr "密码长度至少为 %(min_length)d 个字符。"
+
+#: forms/fields.py
+msgid "Your password can't be a commonly used password."
+msgstr "密码不能是常用密码。"
+
+#: forms/fields.py
+msgid "Your password can't be entirely numeric."
+msgstr "密码不能全部为数字。"
+
+
+# ============================================================
+# Django 认证（Authentication）
+# ============================================================
+
+#: contrib/auth/views.py
+msgid "Login"
+msgstr "登录"
+
+#: contrib/auth/views.py
+msgid "Logout"
+msgstr "退出登录"
+
+#: contrib/auth/views.py
+msgid "Sign up"
+msgstr "注册"
+
+#: contrib/auth/views.py
+msgid "Sign in"
+msgstr "登录"
+
+#: contrib/auth/views.py
+msgid "Forgot Password"
+msgstr "忘记密码"
+
+#: contrib/auth/views.py
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: contrib/auth/views.py
+msgid "Change Password"
+msgstr "修改密码"
+
+#: contrib/auth/views.py
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: contrib/auth/views.py
+msgid "Password reset email sent."
+msgstr "密码重置邮件已发送。"
+
+#: contrib/auth/views.py
+msgid "Password reset link expired. Please request a new one."
+msgstr "密码重置链接已过期，请重新申请。"
+
+#: contrib/auth/views.py
+msgid "Your password has been reset successfully."
+msgstr "您的密码已成功重置。"
+
+#: contrib/auth/views.py
+msgid "Account locked. Too many failed login attempts."
+msgstr "账户已锁定。登录失败次数过多。"
+
+#: contrib/auth/views.py
+msgid "Account not found."
+msgstr "未找到该账户。"
+
+#: contrib/auth/views.py
+msgid "Account is inactive. Please contact support."
+msgstr "账户未激活，请联系客服。"
+
+#: contrib/auth/views.py
+msgid "You are not authorized to view this page."
+msgstr "您没有权限查看此页面。"
+
+#: contrib/auth/views.py
+msgid "Permission denied."
+msgstr "权限被拒绝。"
+
+
+# ============================================================
+# Django 通用视图（Generic Views）和分页（Pagination）
+# ============================================================
+
+#: views/generic/list.py
+msgid "Showing %(start)s to %(end)s of %(total)s entries."
+msgstr "显示 %(start)s 至 %(end)s 项，共 %(total)s 项。"
+
+#: views/generic/list.py
+msgid "No items found."
+msgstr "未找到任何项目。"
+
+#: views/generic/list.py
+msgid "Previous"
+msgstr "上一页"
+
+#: views/generic/list.py
+msgid "Next"
+msgstr "下一页"
+
+#: views/generic/list.py
+msgid "First"
+msgstr "首页"
+
+#: views/generic/list.py
+msgid "Last"
+msgstr "末页"
+
+
+# ============================================================
+# Django REST Framework 通用翻译
+# ============================================================
+
+#: rest_framework/views.py
+msgid "Authentication credentials were not provided."
+msgstr "未提供认证凭证。"
+
+#: rest_framework/views.py
+msgid "Invalid authentication credentials."
+msgstr "认证凭证无效。"
+
+#: rest_framework/views.py
+msgid "You do not have permission to perform this action."
+msgstr "您没有权限执行此操作。"
+
+#: rest_framework/views.py
+msgid "Not found."
+msgstr "未找到。"
+
+#: rest_framework/views.py
+msgid "Method not allowed."
+msgstr "方法不允许。"
+
+#: rest_framework/views.py
+msgid "The request is missing required parameters."
+msgstr "请求缺少必要参数。"
+
+#: rest_framework/views.py
+msgid "Validation error."
+msgstr "验证错误。"
+
+#: rest_framework/views.py
+msgid "The data you submitted is invalid."
+msgstr "您提交的数据无效。"
+
+#: rest_framework/views.py
+msgid "Resource was created successfully."
+msgstr "资源已成功创建。"
+
+#: rest_framework/views.py
+msgid "Resource was updated successfully."
+msgstr "资源已成功更新。"
+
+#: rest_framework/views.py
+msgid "Resource was deleted successfully."
+msgstr "资源已成功删除。"
+
+#: rest_framework/views.py
+msgid "The resource does not exist."
+msgstr "该资源不存在。"
+
+
+# ============================================================
+# 租户管理（Tenants）额外翻译
+# ============================================================
+
+#: apps/tenants/admin.py
+msgid "Tenant management"
+msgstr "租户管理"
+
+#: apps/tenants/admin.py
+msgid "Domain management"
+msgstr "域名管理"
+
+#: apps/tenants/admin.py
+msgid "Schema"
+msgstr "模式"
+
+#: apps/tenants/admin.py
+msgid "Client"
+msgstr "客户"
+
+#: apps/tenants/admin.py
+msgid "Domain name"
+msgstr "域名"
+
+#: apps/tenants/admin.py
+msgid "Primary domain"
+msgstr "主域名"
+
+#: apps/tenants/admin.py
+msgid "Paid until date"
+msgstr "付费截止日期"
+
+#: apps/tenants/admin.py
+msgid "Trial period"
+msgstr "试用期"
+
+#: apps/tenants/admin.py
+msgid "Active"
+msgstr "活跃"
+
+#: apps/tenants/admin.py
+msgid "Inactive"
+msgstr "停用"
+
+#: apps/tenants/admin.py
+msgid "Suspended"
+msgstr "已暂停"
+
+#: apps/tenants/admin.py
+msgid "Expired"
+msgstr "已过期"
+
+#: apps/tenants/admin.py
+msgid "Trial"
+msgstr "试用"
+
+#: apps/tenants/admin.py
+msgid "Paid"
+msgstr "已付费"
+
+#: apps/tenants/admin.py
+msgid "Canceled"
+msgstr "已取消"
+
+
+# ============================================================
+# 通用 UI 翻译（按钮、标签、提示）
+# ============================================================
+
+#: templates/base.html
+msgid "Welcome"
+msgstr "欢迎"
+
+#: templates/base.html
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: templates/base.html
+msgid "Home"
+msgstr "首页"
+
+#: templates/base.html
+msgid "Settings"
+msgstr "设置"
+
+#: templates/base.html
+msgid "Profile"
+msgstr "个人资料"
+
+#: templates/base.html
+msgid "Account"
+msgstr "账户"
+
+#: templates/base.html
+msgid "Help"
+msgstr "帮助"
+
+#: templates/base.html
+msgid "Support"
+msgstr "支持"
+
+#: templates/base.html
+msgid "Contact us"
+msgstr "联系我们"
+
+#: templates/base.html
+msgid "About"
+msgstr "关于"
+
+#: templates/base.html
+msgid "Privacy policy"
+msgstr "隐私政策"
+
+#: templates/base.html
+msgid "Terms of service"
+msgstr "服务条款"
+
+#: templates/base.html
+msgid "Copyright"
+msgstr "版权所有"
+
+#: templates/base.html
+msgid "All rights reserved."
+msgstr "保留所有权利。"
+
+#: templates/base.html
+msgid "English"
+msgstr "英语"
+
+#: templates/base.html
+msgid "Chinese"
+msgstr "中文"
+
+#: templates/base.html
+msgid "Japanese"
+msgstr "日语"
+
+
+# ============================================================
+# 错误页面（Error Pages）
+# ============================================================
+
+#: templates/403.html
+msgid "403 Forbidden"
+msgstr "403 禁止访问"
+
+#: templates/403.html
+msgid "You do not have permission to access this page."
+msgstr "您没有权限访问此页面。"
+
+#: templates/404.html
+msgid "404 Not Found"
+msgstr "404 未找到"
+
+#: templates/404.html
+msgid "The page you requested could not be found."
+msgstr "您请求的页面不存在。"
+
+#: templates/500.html
+msgid "500 Internal Server Error"
+msgstr "500 服务器内部错误"
+
+#: templates/500.html
+msgid "Something went wrong on our end. Please try again later."
+msgstr "服务器发生错误，请稍后再试。"
+
+#: templates/502.html
+msgid "502 Bad Gateway"
+msgstr "502 网关错误"
+
+#: templates/502.html
+msgid "The server received an invalid response from the upstream server."
+msgstr "服务器从上游服务收到了无效响应。"
+
+
+# ============================================================
+# Simple JWT 翻译
+# ============================================================
+
+#: rest_framework_simplejwt/views.py
+msgid "Token is invalid or expired."
+msgstr "令牌无效或已过期。"
+
+#: rest_framework_simplejwt/views.py
+msgid "Token refreshed successfully."
+msgstr "令牌已成功刷新。"
+
+#: rest_framework_simplejwt/views.py
+msgid "User logged in successfully."
+msgstr "用户登录成功。"
+
+#: rest_framework_simplejwt/views.py
+msgid "User logged out successfully."
+msgstr "用户已成功退出。"
+
+#: rest_framework_simplejwt/views.py
+msgid "Refresh token is required."
+msgstr "需要提供刷新令牌。"
+
+#: rest_framework_simplejwt/views.py
+msgid "Invalid refresh token."
+msgstr "无效的刷新令牌。"
+
+
+# ============================================================
+# 项目特有 API 翻译
+# ============================================================
+
+#: apps/api/serializers.py
+msgid "Name"
+msgstr "名称"
+
+#: apps/api/serializers.py
+msgid "Description"
+msgstr "描述"
+
+#: apps/api/serializers.py
+msgid "Created at"
+msgstr "创建于"
+
+#: apps/api/serializers.py
+msgid "Updated at"
+msgstr "更新于"
+
+#: apps/api/serializers.py
+msgid "Created by"
+msgstr "创建者"
+
+#: apps/api/serializers.py
+msgid "Owner"
+msgstr "所有者"
+
+#: apps/api/serializers.py
+msgid "Status"
+msgstr "状态"
+
+#: apps/api/serializers.py
+msgid "Type"
+msgstr "类型"
+
+#: apps/api/serializers.py
+msgid "Category"
+msgstr "分类"
+
+#: apps/api/serializers.py
+msgid "Tags"
+msgstr "标签"
+
+#: apps/api/serializers.py
+msgid "Published"
+msgstr "已发布"
+
+#: apps/api/serializers.py
+msgid "Draft"
+msgstr "草稿"
+
+#: apps/api/serializers.py
+msgid "Archived"
+msgstr "已归档"
+
+#: apps/api/serializers.py
+msgid "Pinned"
+msgstr "已置顶"
+
+#: apps/api/serializers.py
+msgid "Featured"
+msgstr "已推荐"
+
+#: apps/api/serializers.py
+msgid "Public"
+msgstr "公开"
+
+#: apps/api/serializers.py
+msgid "Private"
+msgstr "私有"
